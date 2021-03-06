@@ -37,7 +37,7 @@ As you can see, everything that is important (API urls, masterkey, data stored o
 
 See the folder "Screenshots" for the pictures and see below what they correspond to :
 
-   * 1 - Connection page : this is the connection page of the application. This is where you can enter the masterkey and the id in order to connect.
+   * 1 - Connection Page : this is the connection page of the application. This is where you can enter the masterkey and the id in order to connect.
    * 2 - Connection Page error masterkey : this is the error you get when you enter a wrong masterkey.
    * 3 - Connection Page error id : this is the error you get when you have the correct masterkey but an error in the id (id does not exist or you do not enter any id or you are offline and have no data saved locally for this id)
    * 4 - Accounts Page : this is the page in which the accounts are displayed. You can also see above that there is the information corresponding to the id you entered in the connection page.
