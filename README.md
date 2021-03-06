@@ -24,7 +24,9 @@ For your information, the files from "https://60102f166c21e10017050128.mockapi.i
 ## How did I hide the API url
 
 To hide the API url, I first put it into a C++ file because this kind of file is not compiled the same way as the rest of the code. In fact, Native C/C++ code is harder to decompile, so hackers will have a harder time gaining access to the data written in this language. I even decompiled my apk file on several website and I never found my C++ file. 
+
 However, I saw on the internet that it is possible to find it using complicated methodes. Therefore, I did not hardcoded the API url in clear into my C++ file but its encrypted version. In order to do so, I used the same function as the one used to encrypt the data stored on the phone and to ensure the security, I also used the same encryption key (input of the user).
+
 Doing so, even if hackers succeed to find the data contained in the C++ file, they will still have to decrypt it.
 
 ## Notes
@@ -34,6 +36,7 @@ As you can see, everything that is important (API urls, masterkey, data stored o
 ## Screenshots of my application 
 
 See the folder "Screenshots" for the pictures and see below what they correspond to :
+
     * 1 - Connection page : this is the connection page of the application. This is where you can enter the masterkey and the id in order to connect.
     * 2 - Connection Page error masterkey : this is the error you get when you enter a wrong masterkey.
     * 3 - Connection Page error id : this is the error you get when you have the correct masterkey but an error in the id (id does not exist or you do not enter any id or you are offline and have no data saved locally for this id)
